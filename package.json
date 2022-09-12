@@ -1,0 +1,32 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "1.10.0",
+    "nodemon": "2.0.19",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "16.0.2",
+    "express": "4.18.1",
+    "firebase-admin": "^11.0.1",
+    "helmet": "6.0.0",
+    "loglevel": "1.8.0",
+    "mongoose": "6.6.0",
+    "validator": "13.7.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
